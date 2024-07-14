@@ -1,0 +1,205 @@
+body{
+  background-image:url(Books.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.co{
+  background:linear-gradient(to right, lightcoral, blueviolet);
+  width:430px;
+  height: 50px;
+  font-size: 25px;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  transition: background-color 0.5s ease;
+}
+
+.co:hover{
+  background:linear-gradient(to right,blueviolet,lightcoral) ;
+}
+
+.hai{
+  background-color:#374a6a;
+  color: azure;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.photo{
+  float:right;
+  width:500px;
+  border: 5px solid black;
+  height: 1500px;
+  border-radius: 15px;
+  background-image: url(lamp.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.calender{
+  margin-top:50px;
+  margin-left: 100px;
+  margin-right:100px;
+  margin-bottom: 50px;
+  padding:50px;
+  border: 1px solid white;
+  border-radius:5px;
+  height: 230px;
+  width: 200px;
+  font-size:20px;
+  text-align: justify;
+  text-indent:20px;
+  line-height:25px;
+  background-color:rgb(180, 48, 48);
+  font-weight: bold;
+}
+
+.about{
+  margin-top:50px;
+  margin-left: 100px;
+  margin-right:100px;
+  margin-bottom: 50px;
+  padding:50px;
+  border: 1px solid white;
+  border-radius:5px;
+  height: 230px;
+  width: 200px;
+  font-size:20px;
+  text-align: justify;
+  text-indent:20px;
+  line-height:25px;
+  background-color:rgb(180, 48, 48);
+  font-weight: bold;
+}
+
+.link{
+  margin-top:50px;
+  margin-left: 100px;
+  margin-right:100px;
+  margin-bottom: 50px;
+  padding:50px;
+  border: 1px solid white;
+  border-radius:5px;
+  height: 50px;
+  width: 200px;
+  font-size:20px;
+  text-align: justify;
+  text-indent:20px;
+  line-height:25px;
+  background-color:rgb(180, 48, 48);
+  font-weight: bold;
+  color: blue;
+}
+
+.gabut{
+  margin-top:50px;
+  margin-left: 100px;
+  margin-right:100px;
+  margin-bottom: 50px;
+  padding:50px;
+  border: 1px solid white;
+  border-radius:5px;
+  height: 330px;
+  width: 200px;
+  font-size:20px;
+  text-align: justify;
+  text-indent:20px;
+  line-height:25px;
+  background-color:rgb(180, 48, 48);
+  font-weight: bold;
+}
+
+.first{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.second{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:295px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.thirth{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.four{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:295px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.five{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.six{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.seven{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.eight{
+  background-color:#374a6a;
+  color: azure;
+  width: 636px;
+  height:270px;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.bisa{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: lightpink;
+  }
+
+  .yey{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: red;
+  }
+
+  .apa{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: green;
+  }

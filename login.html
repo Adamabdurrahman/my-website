@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url(environment.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+  
+ 
+        }
+
+        .login-container {
+            background-color: #fff;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-container h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="javascript:void(0);" onsubmit="login();">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            // Get the username and password from the form
+            var username = document.getElementsByName("username")[0].value;
+            var password = document.getElementsByName("password")[0].value;
+
+            // You can add your verification logic here
+            // For simplicity, let's assume the correct username and password are "user" and "password"
+            if (username === "admin" && password === "admin") {
+                // Redirect to the desired webpage after successful login
+                window.location.href = "webku.html";
+            } else {
+                // Add code to handle incorrect login here, like displaying an error message
+                alert("Invalid username or password. Please try again.");
+            }
+        }
+    </script>
+
+   
+</body>
+</html>
+ 

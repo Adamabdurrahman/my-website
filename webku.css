@@ -1,0 +1,97 @@
+.asik{
+    background-color: #c65850;
+    font-size: 25px;
+    height: 50px;
+    width: 841px;
+
+}
+
+.ko{
+    background:linear-gradient(to right, lightcoral, blueviolet);
+    width:859px; /* 299px */
+    height: 17px;
+    font-size: 15px;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .ko:hover{
+    background:linear-gradient(to right,blueviolet,lightcoral) ;
+  }
+
+
+.home{
+    font-size: 40px;
+    font-style: italic;
+
+}
+.gallery{
+    font-size: 40px;
+    font-style: italic;
+}
+.aboutus{
+    font-size: 40px;
+    font-style: italic;
+}
+.connect{
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.first{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.second{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.third{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.fourth{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.fifth{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.sixth{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.seventh{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.eight{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.nineth{
+    font-size: 25px;
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+.tenth{
+    background-color:#f1f1f1;
+          color:#f44336;
+          padding: 10px;
+          text-align:center;
+          text-shadow:2px 2px 3px #333;
+          font-size:50px;
+          text-decoration: none;
+          
+}

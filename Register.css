@@ -1,0 +1,24 @@
+.yo{
+    background:linear-gradient(to right, lightcoral, blueviolet);
+    width:430px;
+    height: 40px;
+    font-size: 25px;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .yo:hover{
+    background:linear-gradient(to right,blueviolet,lightcoral) ;
+  }
+
+.lo{
+    background-color:#5044a7;
+          color:#f44336;
+          padding: 10px;
+          text-align:center;
+          text-shadow:2px 2px 3px #333;
+          font-size:10px;
+          text-decoration: none;
+}
